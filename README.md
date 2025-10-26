@@ -1,73 +1,111 @@
-# Welcome to your Lovable project
+# Container Security Village Website
 
-## Project info
+Official website for Container Security Village - a community dedicated to Kubernetes and container security.
 
-**URL**: https://lovable.dev/projects/0c25171c-3707-4172-846b-f1f2ea1f5522
+![Container Security Village](https://img.shields.io/badge/Village-Container%20Security-blue)
+![Community](https://img.shields.io/badge/Community-Open%20Source-green)
 
-## How can I edit this code?
+## About
 
-There are several ways of editing your application.
+Container Security Village is your own community for all things Kubernetes and container security. We are dedicated to fostering a vibrant community where security enthusiasts and professionals can converge to share knowledge, exchange ideas, and collaborate on innovative security solutions.
 
-**Use Lovable**
+We provide comprehensive security guidance for both self-managed Kubernetes setups and cloud-managed environments (EKS, AKS, GKE).
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0c25171c-3707-4172-846b-f1f2ea1f5522) and start prompting.
+## Upcoming Events
 
-Changes made via Lovable will be committed automatically to this repo.
+### Container Security Village @ Seasides Goa 2026
 
-**Use your preferred IDE**
+- **Dates:** February 19-21, 2026
+- **Location:** International Centre Goa, Dona Paula, India
+- **CFP Deadline:** January 20, 2026
+- **Speaker Notification:** January 26, 2026
+- **Conference:** Part of [Seasides Conference](https://seasides.dev)
+- **Free Community Event:** Attendees and speakers are responsible for their own accommodation and travel
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+We participate in various conferences throughout the year. Check back for updates on upcoming events.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Tech Stack
 
-Follow these steps:
+- **Framework:** React + TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn/ui
+- **Icons:** Lucide React
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Key Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **Call for Papers:** Submit talks, hands-on sessions, and tool demonstrations
+- **Schedule:** Dynamic schedule with session details
+- **Sponsorship:** Information about sponsorship opportunities
+- **FAQ:** Common questions about our events
+- **Contact:** Get in touch with the organizing team
+- **Responsive Design:** Mobile-friendly interface
 
-# Step 3: Install the necessary dependencies.
-npm i
+## CFP Topics
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+We welcome submissions on:
+- Container image scanning and hardening
+- Kubernetes security policies and defense strategies
+- Pod security standards implementation
+- Network policies and firewalling
+- Secrets management in K8s
+- RBAC and access controls
+- Cloud-managed K8s security (EKS, AKS, GKE)
+- Cloud-native security architectures
+- eBPF-based runtime security
+- Supply-chain security and SBOM
+- Runtime security monitoring
 
-**Edit a file directly in GitHub**
+## Contributing
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Container Security Village is a community-driven initiative. We welcome contributions to improve the website and help organize events.
 
-**Use GitHub Codespaces**
+### Reporting Issues
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Found a bug or have a suggestion? Please open an issue on GitHub.
 
-## What technologies are used for this project?
+### Contributing Code
 
-This project is built with:
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add amazing feature'`)
+5. Push to the branch (`git push origin feature/amazing-feature`)
+6. Open a Pull Request
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Code of Conduct
 
-## How can I deploy this project?
+We follow a strict Code of Conduct ensuring a safe, inclusive environment for all participants. See the Code of Conduct section on the website.
 
-Simply open [Lovable](https://lovable.dev/projects/0c25171c-3707-4172-846b-f1f2ea1f5522) and click on Share -> Publish.
+## Session Guidelines
 
-## Can I connect a custom domain to my Lovable project?
+- Use **open-source or freemium tools only** (no paid/proprietary tools)
+- Sessions must be **vendor-neutral and educational**
+- Focus on practical, hands-on learning
+- Promote accessibility and community benefit
 
-Yes, you can!
+## Community
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Join us at events throughout the year at various security conferences. Connect with the community through our website and social channels.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## License
+
+This project is licensed under the [GPL-3.0 License](LICENSE).
+
+## Contact
+
+
+- **Website:** [containersecurityvillage.kubernetesvillage.com](https://containersecurityvillage.kubernetesvillage.com)
+- **LinkTree:** [linktr.ee/containersecurityvillage](https://linktr.ee/containersecurityvillage)
+- **Support:** anjali.shukla@owasp.org
+
+## Credit
+- Vibe coded with Lovable.dev
+
+## Disclaimer
+
+Kubernetes® is a registered trademark of The Linux Foundation. This event is not affiliated with, endorsed by, or sponsored by The Linux Foundation or the Cloud Native Computing Foundation.
+
+---
+
+**Container Security Village: Where Kubernetes and containers meet security!**
