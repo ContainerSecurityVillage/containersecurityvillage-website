@@ -30,7 +30,7 @@ const Hero = () => {
           <div className="hidden sm:block">•</div>
           <div className="flex items-center gap-2">
             <Calendar size={20} />
-            <span>February 19-21, 2026</span>
+            <span>February 19-21, 2026 • Seasides Conference</span>
           </div>
         </div>
 
