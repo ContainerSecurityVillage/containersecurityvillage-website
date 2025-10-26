@@ -37,11 +37,11 @@ const FAQ = () => {
     },
     {
       question: "What should I bring?",
-      answer: "Bring a laptop for hands-on sessions, power adapters, and business cards for networking. We'll provide WiFi and networking support for hands-on labs."
+      answer: "Bring a laptop for hands-on sessions, power adapters, and business cards for networking. Please note that internet access is limited to trainers and speakers only. Attendees are expected to use their personal mobile hotspots for any internet connectivity needs."
     },
     {
       question: "Will sessions be recorded?",
-      answer: "Selected talks may be recorded and made available after the event. Interactive hands-on labs typically won't be recorded due to their nature."
+      answer: "No, sessions will not be recorded. All content is presented live during the event."
     },
     {
       question: "Can I volunteer at the village?",
@@ -54,6 +54,10 @@ const FAQ = () => {
     {
       question: "Where can I stay during the conference?",
       answer: "The venue is at International Centre Goa. As a free community event, you're responsible for your own accommodation. Check the Seasides Conference website for accommodation recommendations and booking details."
+    },
+    {
+      question: "What is the relationship with Kubernetes and CNCF?",
+      answer: "Kubernetes® is a registered trademark of The Linux Foundation in the United States and other countries. This event is not affiliated with, endorsed by, or sponsored by The Linux Foundation or the Cloud Native Computing Foundation."
     }
   ];
 
