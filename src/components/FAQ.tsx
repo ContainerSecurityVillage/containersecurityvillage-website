@@ -45,7 +45,7 @@ const FAQ = () => {
     },
     {
       question: "Can I volunteer at the village?",
-      answer: "Yes! We welcome volunteers. Contact us at kubernetesvilllage@gmail.com or check the Volunteers section to apply."
+      answer: "Yes! We welcome volunteers. Contact us at anjali.shukla@owasp.org or check the Volunteers section to apply."
     },
     {
       question: "Is there a Code of Conduct?",
