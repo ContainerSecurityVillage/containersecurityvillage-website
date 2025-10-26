@@ -74,13 +74,13 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <Button variant="outline" size="sm" className="w-full justify-start" asChild>
-                    <a href="https://www.kubernetesvillage.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://containersecurityvillage.kubernetesvillage.com" target="_blank" rel="noopener noreferrer">
                       Website
                       <ExternalLink size={16} className="ml-auto" />
                     </a>
                   </Button>
                   <Button variant="outline" size="sm" className="w-full justify-start" asChild>
-                    <a href="https://linktr.ee/kubernetesvillage" target="_blank" rel="noopener noreferrer">
+                    <a href="https://linktr.ee/containersecurityvillage" target="_blank" rel="noopener noreferrer">
                       All Links
                       <ExternalLink size={16} className="ml-auto" />
                     </a>
