@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import logo from "@/assets/container-security-seasides-logo.png";
@@ -39,9 +38,6 @@ const Navigation = () => {
                 {link.label}
               </a>
             ))}
-            <Button size="sm" className="gradient-accent">
-              Register
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -67,9 +63,6 @@ const Navigation = () => {
                 {link.label}
               </a>
             ))}
-            <Button size="sm" className="w-full gradient-accent">
-              Register
-            </Button>
           </div>
         )}
       </div>
