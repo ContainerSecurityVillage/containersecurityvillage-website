@@ -58,9 +58,9 @@ const CFP = () => {
             </CardHeader>
             <CardContent>
               <Button size="lg" className="gradient-accent w-full" asChild>
-                <a href="https://forms.google.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://sessionize.com/container-security-village" target="_blank" rel="noopener noreferrer">
                   <Send size={18} className="mr-2" />
-                  Open CFP Form
+                  Submit to CFP
                 </a>
               </Button>
             </CardContent>
