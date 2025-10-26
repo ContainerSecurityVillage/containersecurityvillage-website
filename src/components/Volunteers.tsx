@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { Linkedin, Youtube, Instagram } from "lucide-react";
 import teamAnjali from "@/assets/team-anjali.jpg";
 import teamDivyanshu from "@/assets/team-divyanshu.jpg";
 
@@ -8,13 +9,21 @@ const Volunteers = () => {
       name: "Anjali",
       role: "Founder",
       image: teamAnjali,
-      bio: "Visionary leader and founder of Container Security Village, passionate about building secure containerized systems and fostering the security community."
+      bio: "Seasoned cloud security engineer skilled in DevSecOps, Kubernetes security (EKS/GKE), and multi-cloud security (AWS/Azure/GCP). Founder of Kubernetes Village, leads OWASP EKS Goat project, AWS Community Builder, and speaks at conferences including Black Hat, Nullcon, Seasides Goa, and BSides.",
+      socials: [
+        { icon: Linkedin, url: "https://www.linkedin.com/in/peachycloudsecurity", label: "LinkedIn" },
+        { icon: Youtube, url: "https://www.youtube.com/@peachycloudsecurity", label: "YouTube" },
+        { icon: Instagram, url: "https://www.instagram.com/peachycloudsecurity", label: "Instagram" }
+      ]
     },
     {
       name: "Divyanshu",
       role: "Volunteer",
       image: teamDivyanshu,
-      bio: "Dedicated volunteer helping make Container Security Village a success through tireless support and community engagement."
+      bio: "Senior security engineer skilled in product, cloud security, Kubernetes security, and DevSecOps. Co-lead of OWASP EKS Goat, reported vulnerabilities to Google, Microsoft, AWS, Apple, and others (CVE-2019-8727, CVE-2019-16918). AWS Community Builder, speaks at Black Hat Europe, Seasides, Nullcon, and BSides.",
+      socials: [
+        { icon: Linkedin, url: "https://www.linkedin.com/in/iamdivyanshu", label: "LinkedIn" }
+      ]
     }
   ];
 
@@ -41,7 +50,26 @@ const Volunteers = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-1">{member.name}</h3>
                 <p className="text-accent font-semibold mb-3">{member.role}</p>
-                <p className="text-sm text-muted-foreground">{member.bio}</p>
+                <p className="text-sm text-muted-foreground mb-4">{member.bio}</p>
+                {member.socials && member.socials.length > 0 && (
+                  <div className="flex justify-center gap-3 mt-4">
+                    {member.socials.map((social, idx) => {
+                      const Icon = social.icon;
+                      return (
+                        <a
+                          key={idx}
+                          href={social.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-muted-foreground hover:text-accent transition-colors"
+                          aria-label={social.label}
+                        >
+                          <Icon size={20} />
+                        </a>
+                      );
+                    })}
+                  </div>
+                )}
               </CardContent>
             </Card>
           ))}
