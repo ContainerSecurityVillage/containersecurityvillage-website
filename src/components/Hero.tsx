@@ -25,12 +25,12 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 text-white/80">
           <div className="flex items-center gap-2">
             <MapPin size={20} />
-            <span>International Centre Goa, India</span>
+            <span>International Centre Goa, India @ Seasides Conference</span>
           </div>
           <div className="hidden sm:block">•</div>
           <div className="flex items-center gap-2">
             <Calendar size={20} />
-            <span>February 19-21, 2026 • Seasides Conference</span>
+            <span>February 19-21, 2026</span>
           </div>
         </div>
 
