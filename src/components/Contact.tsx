@@ -1,30 +1,13 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea";
 import { Mail, MapPin, ExternalLink } from "lucide-react";
-import { useState } from "react";
-import { toast } from "sonner";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: ""
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    toast.success("Message sent! We'll get back to you soon.");
-    setFormData({ name: "", email: "", subject: "", message: "" });
-  };
 
   return (
     <section id="contact" className="py-20 bg-secondary/30">
       <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h2>
             <p className="text-lg text-muted-foreground">
@@ -32,9 +15,8 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="space-y-6">
-              <Card className="shadow-card">
+          <div className="grid md:grid-cols-3 gap-6">
+            <Card className="shadow-card">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Mail className="text-accent" size={20} />
@@ -43,7 +25,7 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
                   <a href="mailto:anjali.shukla@owasp.org" className="text-accent hover:underline">
-                     anjali.shukla@owasp.org
+                    anjali.shukla@owasp.org
                   </a>
                 </CardContent>
               </Card>
@@ -87,63 +69,6 @@ const Contact = () => {
                   </Button>
                 </CardContent>
               </Card>
-            </div>
-
-            <Card className="shadow-card">
-              <CardHeader>
-                <CardTitle>Send us a Message</CardTitle>
-                <CardDescription>Fill out the form and we'll respond within 48 hours</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <form onSubmit={handleSubmit} className="space-y-4">
-                  <div className="space-y-2">
-                    <Label htmlFor="c-name">Name *</Label>
-                    <Input
-                      id="c-name"
-                      required
-                      value={formData.name}
-                      onChange={(e) => setFormData({...formData, name: e.target.value})}
-                      placeholder="Your name"
-                    />
-                  </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="c-email">Email *</Label>
-                    <Input
-                      id="c-email"
-                      type="email"
-                      required
-                      value={formData.email}
-                      onChange={(e) => setFormData({...formData, email: e.target.value})}
-                      placeholder="your@email.com"
-                    />
-                  </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="c-subject">Subject *</Label>
-                    <Input
-                      id="c-subject"
-                      required
-                      value={formData.subject}
-                      onChange={(e) => setFormData({...formData, subject: e.target.value})}
-                      placeholder="What is this regarding?"
-                    />
-                  </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="c-message">Message *</Label>
-                    <Textarea
-                      id="c-message"
-                      required
-                      value={formData.message}
-                      onChange={(e) => setFormData({...formData, message: e.target.value})}
-                      placeholder="Your message"
-                      rows={5}
-                    />
-                  </div>
-                  <Button type="submit" className="w-full gradient-accent">
-                    Send Message
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </div>
