@@ -53,7 +53,7 @@ const CFP = () => {
                 Submit via the form below. You can edit your response later. All experience levels and formats welcome.
               </p>
               <p className="text-sm font-semibold text-accent">
-                Deadline: January 20, 2026 | Speakers notified by January 26, 2026
+                Deadline: Dec 25, 2026 | Speakers notified by Dec 30, 2025
               </p>
             </CardHeader>
             <CardContent>
