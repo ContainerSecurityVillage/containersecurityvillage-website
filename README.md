@@ -19,7 +19,7 @@ We provide comprehensive security guidance for both self-managed Kubernetes setu
 - **Location:** International Centre Goa, Dona Paula, India
 - **CFP Deadline:** January 20, 2026
 - **Speaker Notification:** January 26, 2026
-- **Conference:** Part of [Seasides Conference](https://seasides.dev)
+- **Conference:** Part of [Seasides Conference](https://seasides.net)
 - **Free Community Event:** Attendees and speakers are responsible for their own accommodation and travel
 
 We participate in various conferences throughout the year. Check back for updates on upcoming events.
