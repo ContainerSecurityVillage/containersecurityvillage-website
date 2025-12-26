@@ -38,7 +38,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Legal</h4>
             <ul className="space-y-2 text-sm">
               <li><a href="#code-of-conduct" className="text-primary-foreground/80 hover:text-primary-foreground">Code of Conduct</a></li>
-              <li><a href="https://seasides.dev" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground">Seasides Conference</a></li>
+              <li><a href="https://seasides.net" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/80 hover:text-primary-foreground">Seasides Conference</a></li>
               <li><a href="/privacy" className="text-primary-foreground/80 hover:text-primary-foreground">Privacy Policy</a></li>
             </ul>
           </div>
