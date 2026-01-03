@@ -29,7 +29,8 @@ const Schedule = () => {
             February 19-21, 2026 — Three days of insightful talks and hands-on training — completely free
           </p>
           <p className="text-sm text-accent font-semibold">
-            Schedule coming soon • <a href="#cfp" className="underline">CFP is now open</a> (Deadline: Dec 25, 2026 | Speakers notified by Dec 30, 2025)
+            Schedule coming soon 
+            {/* • <a href="#cfp" className="underline">CFP is now open</a> (Deadline: Dec 25, 2026 | Speakers notified by Dec 30, 2025) */}
           </p>
         </div>
 
