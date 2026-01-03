@@ -48,22 +48,22 @@ const CFP = () => {
 
           <Card className="shadow-card mb-8">
             <CardHeader>
-              <CardTitle className="text-2xl mb-2">CFP is open!</CardTitle>
-              <p className="text-muted-foreground mb-2">
+              <CardTitle className="text-2xl mb-2">CFP Closed</CardTitle>
+              {/* <p className="text-muted-foreground mb-2">
                 Submit via the form below. You can edit your response later. All experience levels and formats welcome.
               </p>
               <p className="text-sm font-semibold text-accent">
                 Deadline: Dec 25, 2026 | Speakers notified by Dec 30, 2025
-              </p>
+              </p> */}
             </CardHeader>
-            <CardContent>
+            {/* <CardContent>
               <Button size="lg" className="gradient-accent w-full" asChild>
                 <a href="https://sessionize.com/container-security-village" target="_blank" rel="noopener noreferrer">
                   <Send size={18} className="mr-2" />
                   Submit to CFP
                 </a>
               </Button>
-            </CardContent>
+            </CardContent> */}
           </Card>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
