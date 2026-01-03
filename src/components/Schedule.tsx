@@ -29,8 +29,7 @@ const Schedule = () => {
             February 19-21, 2026 — Three days of insightful talks and hands-on training — completely free
           </p>
           <p className="text-sm text-accent font-semibold">
-            Schedule coming soon 
-            {/* • <a href="#cfp" className="underline">CFP is now open</a> (Deadline: Dec 25, 2026 | Speakers notified by Dec 30, 2025) */}
+            Schedule coming soon • <a href="#cfp" className="underline"> CFP Closed </a> ( Speakers notified by Dec 30, 2025) 
           </p>
         </div>
 
@@ -47,12 +46,12 @@ const Schedule = () => {
                 <CardHeader>
                   <CardTitle className="text-2xl">{day.day} - {day.date}</CardTitle>
                   <p className="text-sm text-muted-foreground mt-2">
-                    Schedule will be finalized after CFP closes
+                    Schedule will be finalized soon
                   </p>
                 </CardHeader>
                 <CardContent>
                   <div className="py-8 text-center text-muted-foreground">
-                    <p>Detailed schedule will be available after CFP closes</p>
+                    <p> The detailed schedule will be announced soon </p>
                   </div>
                 </CardContent>
               </Card>
