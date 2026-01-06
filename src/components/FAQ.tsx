@@ -33,7 +33,7 @@ const FAQ = () => {
     },
     {
       question: "Are there opportunities to present?",
-      answer: "Yes! Submit your proposal through our Call for Papers before January 20, 2026. Speakers will be notified by January 26, 2026. We welcome talks, hands-on demonstrations, lightning talks, and tool showcases on Kubernetes and container security topics."
+      answer: "CFP Closed and speakers notified by Dec 30, 2025. We welcome talks, hands-on demonstrations, lightning talks, and tool showcases on Kubernetes and container security topics."
     },
     {
       question: "What should I bring?",
