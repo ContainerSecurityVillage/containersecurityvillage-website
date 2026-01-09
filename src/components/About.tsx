@@ -26,7 +26,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="pt-12 pb-20 bg-secondary/30">
+    <section id="about" className="pt-6 pb-20 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">About the Village</h2>
