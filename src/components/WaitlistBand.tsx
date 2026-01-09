@@ -16,9 +16,9 @@ const WaitlistBand = () => {
   const trimmedEmail = useMemo(() => emailAddress.trim(), [emailAddress]);
 
   return (
-    <section aria-labelledby="notify-heading" className="py-6 bg-secondary/30">
+    <section aria-labelledby="notify-heading" className="pt-0 pb-10 bg-secondary/30">
       <div className="container mx-auto px-4">
-        <div className="w-full rounded-2xl border border-border/60 bg-background/70 backdrop-blur shadow-card px-5 py-6 md:px-8">
+        <div className="relative z-10 -mt-10 md:-mt-12 w-full rounded-2xl border border-border/60 bg-background/70 backdrop-blur shadow-card px-6 py-7 md:px-10">
           <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
             <div className="max-w-2xl">
               <div className="flex items-center gap-2 text-accent">
