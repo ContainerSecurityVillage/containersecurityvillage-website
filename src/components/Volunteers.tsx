@@ -1,9 +1,15 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Linkedin, Youtube, Instagram } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Globe, Linkedin, Youtube, Link } from "lucide-react";
 import teamAnjali from "@/assets/team-anjali.jpg";
 import teamDivyanshu from "@/assets/team-divyanshu.jpg";
 
 const Volunteers = () => {
+  const shuklaDuoLinks = [
+    { label: "Website", href: "https://peachycloudsecurity.com/contact", icon: Globe },
+    { label: "YouTube", href: "https://youtube.com/@Peachycloudsecurity", icon: Youtube },
+  ];
+
   const team = [
     {
       name: "Anjali",
@@ -13,7 +19,7 @@ const Volunteers = () => {
       socials: [
         { icon: Linkedin, url: "https://www.linkedin.com/in/peachycloudsecurity", label: "LinkedIn" },
         { icon: Youtube, url: "https://www.youtube.com/@peachycloudsecurity", label: "YouTube" },
-        { icon: Instagram, url: "https://www.instagram.com/peachycloudsecurity", label: "Instagram" }
+        { icon: Link, url: "https://topmate.io/peachycloudsecurity", label: "Topmate" }
       ]
     },
     {
@@ -22,7 +28,10 @@ const Volunteers = () => {
       image: teamDivyanshu,
       bio: "Senior security engineer skilled in product, cloud security, Kubernetes security, and DevSecOps. Co-lead of OWASP EKS Goat, reported vulnerabilities to Google, Microsoft, AWS, Apple, and others (CVE-2019-8727, CVE-2019-16918). AWS Community Builder, speaks at Black Hat Europe, Seasides, Nullcon, and BSides.",
       socials: [
-        { icon: Linkedin, url: "https://www.linkedin.com/in/iamdivyanshu", label: "LinkedIn" }
+        { icon: Globe, url: "https://peachycloudsecurity.com/contact", label: "Website" },
+        { icon: Link, url: "https://topmate.io/peachycloudsecurity", label: "Topmate" },
+        { icon: Linkedin, url: "https://www.linkedin.com/in/iamdivyanshu", label: "LinkedIn" },
+        { icon: Youtube, url: "https://www.youtube.com/@peachycloudsecurity", label: "YouTube" },
       ]
     }
   ];
@@ -51,6 +60,7 @@ const Volunteers = () => {
                 <h3 className="text-xl font-bold mb-1">{member.name}</h3>
                 <p className="text-accent font-semibold mb-3">{member.role}</p>
                 <p className="text-sm text-muted-foreground mb-4">{member.bio}</p>
+
                 {member.socials && member.socials.length > 0 && (
                   <div className="flex justify-center gap-3 mt-4">
                     {member.socials.map((social, idx) => {
@@ -73,6 +83,37 @@ const Volunteers = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        <div className="max-w-4xl mx-auto mt-12">
+          <div className="text-center rounded-2xl border border-border/60 bg-background/50 px-6 py-10">
+            <p className="text-sm text-muted-foreground mb-5">
+              For more details from the Shukla Duo
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              {shuklaDuoLinks.map((link) => {
+                const Icon = link.icon;
+                const isYoutube = link.label.toLowerCase() === "youtube";
+                return (
+                  <Button
+                    key={link.href}
+                    variant="outline"
+                    size="lg"
+                    className={[
+                      "min-w-[180px] border-0 text-white shadow-sm",
+                      isYoutube ? "bg-red-600 hover:bg-red-700" : "bg-blue-600 hover:bg-blue-700",
+                    ].join(" ")}
+                    asChild
+                  >
+                    <a href={link.href} target="_blank" rel="noopener noreferrer">
+                      <Icon />
+                      {link.label}
+                    </a>
+                  </Button>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
     </section>
