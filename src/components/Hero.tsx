@@ -4,7 +4,7 @@ import heroBanner from "@/assets/hero-banner.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[520px] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[420px] flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
           src={heroBanner}
@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="absolute inset-0 gradient-hero opacity-90" />
       </div>
 
-      <div className="container mx-auto px-4 pt-20 pb-14 relative z-10 text-center">
+      <div className="container mx-auto px-4 py-14 md:py-16 relative z-10 text-center">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
           Container Security Village
         </h1>
@@ -22,7 +22,7 @@ const Hero = () => {
           Where Kubernetes and containers meet security!
         </p>
         
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 text-white/80">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-6 text-white/80">
           <div className="flex items-center gap-2">
             <MapPin size={20} />
             <span>International Centre Goa, India @ Seasides Conference</span>
