@@ -56,7 +56,7 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <Button variant="outline" size="sm" className="w-full justify-start" asChild>
-                    <a href="https://peachycloudsecurity.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://peachycloudsecurity.com/contact" target="_blank" rel="noopener noreferrer">
                       Website
                       <ExternalLink size={16} className="ml-auto" />
                     </a>
