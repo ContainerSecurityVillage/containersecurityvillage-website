@@ -127,7 +127,16 @@ const CFP = () => {
               </div>
               <div className="flex items-start gap-2 text-sm">
                 <Check className="text-accent mt-0.5 flex-shrink-0" size={16} />
-                <span>Still not sure or have more questions? Contact us at <a href="mailto:anjali.shukla@owasp.org" className="text-accent underline">anjali.shukla@owasp.org</a></span>
+                <span>
+                  Still not sure or have more questions? Connect us at{" "}
+                  <a href="https://peachycloudsecurity.com/contact" target="_blank" rel="noopener noreferrer" className="text-accent underline">
+                    peachycloudsecurity.com/contact
+                  </a>{" "}
+                  or{" "}
+                  <a href="mailto:peachyclouds3curity@gmail.com" className="text-accent underline">
+                    peachyclouds3curity@gmail.com
+                  </a>
+                </span>
               </div>
             </CardContent>
           </Card>
