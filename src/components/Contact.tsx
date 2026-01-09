@@ -24,8 +24,8 @@ const Contact = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <a href="mailto:anjali.shukla@owasp.org" className="text-accent hover:underline">
-                    anjali.shukla@owasp.org
+                  <a href="mailto:peachyclouds3curity@gmail.com" className="text-accent hover:underline">
+                    peachyclouds3curity@gmail.com
                   </a>
                 </CardContent>
               </Card>
@@ -56,14 +56,20 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <Button variant="outline" size="sm" className="w-full justify-start" asChild>
-                    <a href="https://containersecurityvillage.kubernetesvillage.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://peachycloudsecurity.com" target="_blank" rel="noopener noreferrer">
                       Website
                       <ExternalLink size={16} className="ml-auto" />
                     </a>
                   </Button>
                   <Button variant="outline" size="sm" className="w-full justify-start" asChild>
-                    <a href="https://linktr.ee/containersecurityvillage" target="_blank" rel="noopener noreferrer">
-                      All Links
+                    <a href="https://topmate.io/peachycloudsecurity" target="_blank" rel="noopener noreferrer">
+                      Topmate
+                      <ExternalLink size={16} className="ml-auto" />
+                    </a>
+                  </Button>
+                  <Button variant="outline" size="sm" className="w-full justify-start" asChild>
+                    <a href="https://youtube.com/@Peachycloudsecurity" target="_blank" rel="noopener noreferrer">
+                      YouTube
                       <ExternalLink size={16} className="ml-auto" />
                     </a>
                   </Button>
