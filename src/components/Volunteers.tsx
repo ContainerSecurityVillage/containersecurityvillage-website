@@ -85,7 +85,7 @@ const Volunteers = () => {
           ))}
         </div>
 
-        <div className="max-w-4xl mx-auto mt-12">
+        <div className="max-w-3xl mx-auto mt-12">
           <div className="text-center rounded-2xl border border-border/60 bg-background/50 px-6 py-10">
             <p className="text-sm text-muted-foreground mb-5">
               For more details from the Shukla Duo
