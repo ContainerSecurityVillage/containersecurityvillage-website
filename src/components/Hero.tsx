@@ -15,9 +15,12 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto px-4 py-14 md:py-16 relative z-10 text-center">
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+        <h1 className="text-5xl md:text-7xl font-bold text-white mb-2">
           Container Security Village
         </h1>
+        <p className="text-2xl md:text-3xl font-semibold text-white/95 mb-6">
+          Second Addition
+        </p>
         <p className="text-xl md:text-2xl text-white/90 mb-4 max-w-3xl mx-auto">
           Where Kubernetes and containers meet security!
         </p>
