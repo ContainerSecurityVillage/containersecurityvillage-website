@@ -97,10 +97,8 @@ This project is licensed under the [GPL-3.0 License](LICENSE).
 
 - **Website:** [containersecurityvillage.kubernetesvillage.com](https://containersecurityvillage.kubernetesvillage.com)
 - **LinkTree:** [linktr.ee/containersecurityvillage](https://linktr.ee/containersecurityvillage)
-- **Support:** anjali.shukla@owasp.org
+- **Support:** peachyclouds3curity@gmail.com
 
-## Credit
-- Vibe coded with Lovable.dev
 
 ## Disclaimer
 
